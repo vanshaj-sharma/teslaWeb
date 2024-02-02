@@ -5,19 +5,19 @@ import { Spec } from "./Spec";
 import { Interior } from "./Interior";
 import Header from "./Header";
 
-const Model3 = () => {
-  document.title = "Model 3 | Tesla";
+const ModelY = () => {
+  document.title = "Model Y | Tesla";
   return (
     <Wrapper>
       <Header />
       <Content>
         <Section
-          title="Model 3"
-          backgroundImg="model3_2.jpeg"
+          title="Model Y"
+          backgroundImg="model_y_1.jpeg"
           arrow="true"
-          range="358"
-          speed="3.1"
-          top="162"
+          range="330"
+          speed="3.5"
+          top="155"
         />
       </Content>
       <Content>
@@ -36,4 +36,4 @@ const Wrapper = styled.div`
 
 const Content = styled.div``;
 
-export default Model3;
+export default ModelY;

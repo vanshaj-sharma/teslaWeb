@@ -3,11 +3,13 @@ import styled from "styled-components";
 import Section from "./Section";
 import { Spec } from "./Spec";
 import { Interior } from "./Interior";
+import Header from "./Header";
 
 const ModelS = () => {
   document.title = "Model S | Tesla";
   return (
     <Wrapper>
+      <Header />
       <Content>
         <Section
           title="Model S"
