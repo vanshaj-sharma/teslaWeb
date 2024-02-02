@@ -85,7 +85,7 @@ const Menu = styled.div`
   align-itmes: center;
   justify-content: center;
   flex: 1;
-
+  margin-left: 120px;
   a {
     font-weight: 600;
     text-transform: uppercase;
