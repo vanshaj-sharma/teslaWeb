@@ -12,6 +12,10 @@ body {
   /* overflow-y: hidden; */
 }
 
+a {
+  text-decoration: none;
+}
+
 @keyframes animateDown {
   0%,
   20%,
