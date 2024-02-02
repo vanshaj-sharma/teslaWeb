@@ -17,7 +17,7 @@ function Header() {
       <Menu>
         {cars &&
           cars.map((car, index) => (
-            <a key={index} href="#">
+            <a key={index} href={car}>
               {car}
             </a>
           ))}
@@ -36,7 +36,7 @@ function Header() {
         {cars &&
           cars.map((car, index) => (
             <li key={index}>
-              <a href="#">{car}</a>
+              <a href={car}>{car}</a>
             </li>
           ))}
         <li>
